@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+backend/venv/
+backend/.venv/
+*.egg-info/
+
+# Environment / secrets
+backend/.env
+.env
+*.env.local
+
+# Local data & model artifacts (regenerated, not source)
+backend/*.db
+backend/artifacts/
+backend/data/*.db
+
+# Node / frontend build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

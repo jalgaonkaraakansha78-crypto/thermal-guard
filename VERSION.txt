@@ -1,0 +1,3 @@
+ThermalGuard Production v3.14.1
+Python target: CPython 3.14.x
+Platform tested target: Windows x64
