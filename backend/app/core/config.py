@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     env: str = "development"
     host: str = "0.0.0.0"
     port: int = 8000
-    database_url: str = "sqlite:///./thermalguard.db"
+    database_url: str
     firms_map_key: str = ""
     firms_source: str = "VIIRS_NOAA21_NRT"
     firms_bbox: str = "88,26,92,28"
